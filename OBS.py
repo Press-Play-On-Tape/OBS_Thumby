@@ -42,7 +42,31 @@ title_Mask = bytearray([0,0,192,224,240,248,252,252,254,254,254,255,255,255,255,
             0,0,0,0,0,0,0,0,1,1,1,3,3,3,127,127,127,127,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,127,127,127,127,127,127,1,1,1,1,1,1,1,0,
             0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 
-highScore = bytearray([252,2,89,45,21,73,37,1,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
+intro_00 = bytearray([252,2,89,45,21,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
+            255,0,0,0,0,7,28,7,0,31,17,31,0,31,16,31,0,31,5,27,0,0,0,23,21,29,0,31,4,31,0,31,0,31,5,7,0,0,0,31,4,31,0,31,5,31,0,23,21,29,0,0,0,31,21,27,0,31,21,17,0,31,21,17,0,31,1,31,0,0,0,255,
+            255,0,0,0,0,0,0,0,0,124,68,56,0,124,20,124,0,124,24,124,0,124,20,124,0,124,68,116,0,124,84,68,0,124,68,56,0,0,0,124,84,108,0,28,112,28,0,0,0,92,84,116,0,124,68,124,0,124,24,124,0,124,84,68,0,0,0,0,0,0,0,255,
+            255,0,0,0,0,0,0,0,0,0,0,0,0,0,112,80,208,0,240,80,112,0,240,80,240,0,240,16,16,0,240,80,16,0,0,0,240,16,224,0,240,80,16,0,240,80,176,0,240,80,176,0,240,0,112,80,208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,
+            63,64,128,128,128,128,128,128,128,128,128,128,128,128,129,129,129,128,129,128,128,128,129,128,129,128,129,129,129,128,129,129,129,128,128,128,129,129,128,128,129,129,129,128,129,129,129,128,129,128,129,128,129,128,129,129,129,128,129,128,129,128,128,128,128,160,144,168,180,154,64,63])
+
+intro_01 = bytearray([252,2,89,45,21,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
+            255,0,0,0,0,0,0,16,0,16,0,1,31,1,0,31,4,31,0,31,21,17,0,0,0,23,21,29,0,1,31,1,0,31,21,17,0,31,21,17,0,31,5,27,0,31,0,31,1,31,0,31,17,29,0,0,0,31,0,23,21,29,0,0,0,0,0,0,0,0,0,255,
+            255,0,0,124,84,108,0,124,20,108,0,124,68,124,0,124,16,108,0,124,84,68,0,124,4,124,0,0,0,124,20,124,0,124,4,124,0,124,68,56,0,0,0,28,112,28,0,124,68,124,0,124,64,124,0,0,0,124,68,68,0,124,20,124,0,124,4,124,0,0,0,255,
+            255,0,0,0,0,0,0,0,0,0,0,0,0,0,240,16,240,0,240,16,240,0,16,240,16,0,0,0,240,16,240,0,240,80,240,0,240,0,240,0,240,0,240,16,208,0,240,80,240,0,16,240,16,0,240,80,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,
+            63,64,128,128,128,128,128,128,128,128,128,128,128,128,129,128,129,128,129,129,129,128,128,129,128,128,128,128,129,128,129,128,129,128,129,128,128,129,128,128,129,128,129,129,129,128,129,128,129,128,128,129,128,128,129,129,129,128,129,128,128,128,128,128,128,160,144,168,180,154,64,63])
+
+intro_02 = bytearray([252,2,89,45,21,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
+            255,0,0,0,0,0,7,28,7,0,31,17,31,0,31,16,31,0,0,0,31,17,14,0,31,0,23,21,29,0,31,17,17,0,31,17,31,0,15,16,15,0,31,21,17,0,31,5,27,0,0,0,1,31,1,0,31,4,31,0,31,5,31,0,1,31,1,0,0,0,0,255,
+            255,0,0,124,84,108,0,28,112,28,0,0,0,124,20,4,0,124,0,124,20,108,0,124,0,124,4,124,0,124,68,116,0,0,0,4,124,4,0,124,16,124,0,124,84,68,0,0,0,124,64,64,0,124,20,124,0,92,84,116,0,124,84,68,0,124,20,108,0,0,0,255,
+            255,0,0,0,0,0,0,0,0,0,0,0,112,192,112,0,240,16,240,0,240,0,240,0,0,0,240,16,16,0,240,80,240,0,240,16,240,0,0,0,112,80,208,0,16,240,16,0,240,80,16,0,240,80,16,0,240,80,176,0,0,0,0,0,0,0,0,0,0,0,0,255,
+            63,64,128,128,128,128,128,128,128,128,128,128,128,129,128,128,129,129,129,128,129,129,129,128,128,128,129,129,129,128,129,128,129,128,129,128,129,128,128,128,129,129,129,128,128,129,128,128,129,129,129,128,129,129,129,128,129,128,129,128,128,129,128,129,128,160,144,168,180,154,64,63])
+            
+intro_03 = bytearray([252,2,89,45,21,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
+            255,0,0,16,0,16,0,23,21,29,0,31,17,31,0,31,5,27,0,1,31,1,0,0,0,31,17,31,0,31,5,1,0,23,0,0,0,31,5,31,0,15,16,15,0,31,17,31,0,31,0,31,17,14,0,0,0,1,31,1,0,31,4,31,0,31,21,17,0,0,0,255,
+            255,0,124,20,124,0,92,84,116,0,4,124,4,0,124,84,68,0,124,20,108,0,124,68,124,0,124,0,124,68,56,0,92,84,116,0,0,0,124,20,124,0,124,4,124,0,124,68,56,0,0,124,84,68,0,124,4,124,0,124,84,68,0,124,24,124,0,28,112,28,0,255,
+            255,0,0,112,80,208,0,240,64,240,0,240,0,240,80,112,0,112,80,208,0,0,0,240,80,240,0,240,16,240,0,240,16,224,0,0,0,240,80,16,0,240,0,0,112,192,112,0,0,0,240,64,240,0,240,16,240,0,240,96,240,0,240,80,16,0,0,0,0,0,0,255,
+            63,64,128,129,129,129,128,129,128,129,128,129,128,129,128,128,128,129,129,129,128,128,128,129,128,129,128,129,128,129,128,129,129,128,128,128,128,129,128,128,128,129,129,129,128,129,128,128,128,128,129,128,129,128,129,129,129,128,129,128,129,128,129,129,129,160,145,168,180,154,64,63])            
+            
+highScore_Img = bytearray([252,2,89,45,21,73,37,1,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,252,
             255,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,
             255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,
             255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,64,0,255,
@@ -51,13 +75,6 @@ highScore = bytearray([252,2,89,45,21,73,37,1,9,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 smallAsteroid = bytearray([0,24,36,82,106,84,44,24,0])
 smallAsteroid_Mask = bytearray([24,60,126,255,255,254,126,60,24])
 
-# 19x19
-# bigAsteroid_00 = bytearray([0,0,192,240,156,108,150,150,110,30,62,222,44,220,56,120,176,192,0,0,14,27,37,74,161,192,8,148,8,128,64,161,208,104,85,42,31,0,0,0,0,0,0,0,0,1,2,3,2,1,1,0,0,0,0,0,0])
-# bigAsteroid_01 = bytearray([0,128,224,248,188,92,170,166,74,6,10,22,42,84,184,96,192,0,0,0,31,127,103,219,165,164,216,160,64,132,74,4,160,80,53,10,7,0,0,0,0,0,0,0,1,1,1,3,2,3,1,0,0,0,0,0,0])
-# bigAsteroid_00_Mask = bytearray([0,192,240,252,254,254,255,255,255,255,255,255,254,254,252,252,248,240,192,14,31,63,127,255,255,255,255,255,255,255,255,255,255,255,255,127,63,31,0,0,0,0,0,1,1,3,7,7,7,3,3,1,0,0,0,0,0])
-# bigAsteroid_01_Mask = bytearray([128,224,248,252,254,254,255,255,255,255,255,255,255,254,252,248,224,192,0,31,127,255,255,255,255,255,255,255,255,255,255,255,255,255,127,63,15,7,0,0,0,0,1,1,3,3,3,7,7,7,3,1,0,0,0,0,0])
-
-# 17x17
 bigAsteroid_00 = bytearray([0,224,240,248,236,118,26,6,10,134,10,20,40,80,176,192,0,0,7,31,27,55,126,104,208,161,210,65,40,20,13,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 bigAsteroid_01 = bytearray([0,0,128,96,80,40,4,150,10,22,44,252,216,176,240,192,0,0,7,26,21,40,80,161,194,161,192,176,220,111,63,31,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 bigAsteroid_00_Mask = bytearray([224,240,248,252,254,255,255,255,255,255,255,254,252,248,248,240,192,7,31,63,63,127,255,255,255,255,255,255,127,63,31,15,3,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0])
@@ -115,60 +132,13 @@ hit_00 = bytearray([0,0,32,4,32,80,0,0,0,1,0,0])
 hit_01 = bytearray([0,32,2,32,136,0,0,0,2,0,0,0])
 hit_02 = bytearray([32,1,0,0,0,0,0,4,0,0,0,0])
 
-ppot_00_Sprite = thumby.Sprite(72, 40, ppot_00)
-ppot_01_Sprite = thumby.Sprite(72, 40, ppot_01)
-ppot_02_Sprite = thumby.Sprite(72, 40, ppot_02)
-ppot_03_Sprite = thumby.Sprite(72, 40, ppot_03)
+ppot = [ppot_00, ppot_01, ppot_02, ppot_03]
+number_Sprite = [number_00, number_01, number_02, number_03, number_04, number_05, number_06, number_07, number_08, number_09]
 
-ppot_Sprite = [ppot_00_Sprite, ppot_01_Sprite, ppot_02_Sprite, ppot_03_Sprite]
-
-number_00_Sprite = thumby.Sprite(3, 5, number_00)
-number_01_Sprite = thumby.Sprite(3, 5, number_01)
-number_02_Sprite = thumby.Sprite(3, 5, number_02)
-number_03_Sprite = thumby.Sprite(3, 5, number_03)
-number_04_Sprite = thumby.Sprite(3, 5, number_04)
-number_05_Sprite = thumby.Sprite(3, 5, number_05)
-number_06_Sprite = thumby.Sprite(3, 5, number_06)
-number_07_Sprite = thumby.Sprite(3, 5, number_07)
-number_08_Sprite = thumby.Sprite(3, 5, number_08)
-number_09_Sprite = thumby.Sprite(3, 5, number_09)
-
-number_Sprite = [number_00_Sprite, number_01_Sprite, number_02_Sprite, number_03_Sprite,
-                 number_04_Sprite, number_05_Sprite, number_06_Sprite, number_07_Sprite,
-                 number_08_Sprite, number_09_Sprite]
-
-puff_00_Sprite = thumby.Sprite(15, 15, puff_00)
-puff_01_Sprite = thumby.Sprite(15, 15, puff_01)
-puff_02_Sprite = thumby.Sprite(15, 15, puff_02)
-puff_03_Sprite = thumby.Sprite(15, 15, puff_03)
-puff_04_Sprite = thumby.Sprite(15, 15, puff_04)
-puff_05_Sprite = thumby.Sprite(15, 15, puff_05)
-puff_06_Sprite = thumby.Sprite(15, 15, puff_06)
-
-puff_00_Mask = thumby.Sprite(15, 15, puff_00_Mask)
-puff_01_Mask = thumby.Sprite(15, 15, puff_01_Mask)
-puff_02_Mask = thumby.Sprite(15, 15, puff_02_Mask)
-puff_03_Mask = thumby.Sprite(15, 15, puff_03_Mask)
-puff_04_Mask = thumby.Sprite(15, 15, puff_04_Mask)
-puff_05_Mask = thumby.Sprite(15, 15, puff_05_Mask)
-puff_06_Mask = thumby.Sprite(15, 15, puff_06_Mask)
-
-puff_Sprite = [puff_00_Sprite, puff_01_Sprite, puff_02_Sprite, puff_03_Sprite, puff_04_Sprite, puff_05_Sprite, puff_06_Sprite]
+puff        = [puff_00, puff_01, puff_02, puff_03, puff_04, puff_05, puff_06]
 puff_Mask   = [puff_00_Mask, puff_01_Mask, puff_02_Mask, puff_03_Mask, puff_04_Mask, puff_05_Mask, puff_06_Mask]
 
-highScore_Sprite = thumby.Sprite(72, 40, highScore)
-
-title_Sprite = thumby.Sprite(61, 37, title)
-title_Mask = thumby.Sprite(61, 37, title_Mask)
-
-shield_Sprite = thumby.Sprite(61, 37, shield)
-shield_Mask = thumby.Sprite(61, 37, shield_Mask)
-
-hit_00_Sprite = thumby.Sprite(6, 12, hit_00)
-hit_01_Sprite = thumby.Sprite(6, 12, hit_01)
-hit_02_Sprite = thumby.Sprite(6, 12, hit_02)
-
-hit_Sprite = [hit_00_Sprite, hit_01_Sprite, hit_02_Sprite]
+hit = [hit_00, hit_01, hit_02]
 
 
 # Constants --------------------------------------------------------------
@@ -184,7 +154,7 @@ CONSTANTS_BulletNone = 255
 CONSTANTS_Health_Factor = 8
 CONSTANTS_ScoreDistance = 96
   
-CONSTANTS_Player_X = 7
+CONSTANTS_Player_X = 5
 
 DIRECTION_Up = -1
 DIRECTION_None = 0
@@ -339,10 +309,10 @@ class Player:
         self.sprite.y = self.y + yOffset
         self.mask.y =   self.y + yOffset
 
-        self.particle_00.x = CONSTANTS_Player_X - 9 + xOffset
-        self.particle_01.x = CONSTANTS_Player_X - 9 + xOffset
-        self.particle_00_Mask.x = CONSTANTS_Player_X - 9 + xOffset
-        self.particle_01_Mask.x = CONSTANTS_Player_X - 9 + xOffset
+        self.particle_00.x = CONSTANTS_Player_X - 7 + xOffset
+        self.particle_01.x = CONSTANTS_Player_X - 7 + xOffset
+        self.particle_00_Mask.x = CONSTANTS_Player_X - 7 + xOffset
+        self.particle_01_Mask.x = CONSTANTS_Player_X - 7 + xOffset
         
         self.particle_00.y = self.y + 3 + yOffset
         self.particle_01.y = self.y + 3 + yOffset
@@ -436,6 +406,7 @@ class TitleScreenVars:
     def __init__(self):
         
         self.counter = 0
+        self.introSeen = False
 
     def reset(self):
         
@@ -444,8 +415,7 @@ class TitleScreenVars:
     def incCounter(self):
         
         self.counter = self.counter + 1
-        if self.counter == 4:
-            self.counter = 0
+
 
 class Star:
 
@@ -783,37 +753,6 @@ def moveRenderLargeAsteroids(alternate, xOffset, yOffset):
             largeAsteroid.render(xOffset, yOffset)
 
 
-def renderDigit(x, y, val):
-
-    for number in number_Sprite:
-        number.x = x
-        number.y = y
-        
-    thumby.display.drawSpriteWithMask(number_Sprite[val], number_Sprite[val])        
-
-
-def renderPuff(x, y, val):
-
-    for puff in puff_Sprite:
-        puff.x = x
-        puff.y = y
-
-    for puff in puff_Mask:
-        puff.x = x
-        puff.y = y
-        
-    thumby.display.drawSpriteWithMask(puff_Sprite[val], puff_Mask[val])        
-
-
-def renderHit(x, y, val):
-
-    for hit in hit_Sprite:
-        hit.x = x
-        hit.y = y
-
-    thumby.display.drawSprite(hit_Sprite[val])        
-
-
 
 # Splash Screen ----------------------------------------------------------
 
@@ -821,17 +760,7 @@ def splashScreen_Init():
 
     global gameState 
 
-    ppot_00_Sprite.x = 0
-    ppot_00_Sprite.y = 0
-    ppot_01_Sprite.x = 0
-    ppot_01_Sprite.y = 0
-    ppot_02_Sprite.x = 0
-    ppot_02_Sprite.y = 0
-    ppot_03_Sprite.x = 0
-    ppot_03_Sprite.y = 0
-    
     splashScreenVars.reset()
-
     gameState = GAMESTATE_SplashScreen
 
 
@@ -840,7 +769,7 @@ def splashScreen():
     global gameState 
     
     splashScreenVars.incCounter()
-    thumby.display.drawSprite(ppot_Sprite[splashScreenVars.imgIndex()])
+    thumby.display.blit(ppot[splashScreenVars.imgIndex()], 0, 0, 72, 40, 0, False, False)
 
     if thumby.buttonA.justPressed() == True:
         gameState = GAMESTATE_TitleScreen_Init
@@ -854,13 +783,7 @@ def splashScreen():
 def titleScreen_Init():
     
     global gameState 
-    
-    title_Sprite.x = 5
-    title_Sprite.y = 1
-    
-    title_Mask.x = 5
-    title_Mask.y = 1
-    
+
     titleScreenVars.reset()
     thumby.display.setFPS(50)
 
@@ -881,21 +804,33 @@ def titleScreen_Init():
 def titleScreen():
     
     global gameState 
-
-    titleScreenVars.incCounter()
     
     moveRenderStarfield()
     moveRenderSmallAsteroids(True, 0, 0)
     moveRenderLargeAsteroids(True, 0, 0)
 
-    thumby.display.drawSpriteWithMask(title_Sprite, title_Mask)
+    if titleScreenVars.counter == 0:
+        thumby.display.blitWithMask(title, 5, 1, 61, 37, 0, False, False, title_Mask)
 
-    if thumby.buttonA.justPressed():
+    if titleScreenVars.counter == 1:
+        thumby.display.blit(intro_00, 0, 0, 72, 40, 0, False, False)
+
+    if titleScreenVars.counter == 2:
+        thumby.display.blit(intro_01, 0, 0, 72, 40, 0, False, False)
+
+    if titleScreenVars.counter == 3:
+        thumby.display.blit(intro_02, 0, 0, 72, 40, 0, False, False)
+
+    if titleScreenVars.counter == 4:
+        thumby.display.blit(intro_03, 0, 0, 72, 40, 0, False, False)
+
+    if thumby.buttonA.justPressed() or thumby.buttonB.justPressed():
+        titleScreenVars.incCounter()
+
+    if titleScreenVars.counter == 5 or (titleScreenVars.introSeen and titleScreenVars.counter == 1):
         gameState = GAMESTATE_Game_Init
+        titleScreenVars.introSeen = True
     
-    if thumby.buttonB.justPressed():
-        gameState = GAMESTATE_Game_Init
-
 
 
 # Game Play ----------------------------------------------------------
@@ -903,9 +838,17 @@ def titleScreen():
 def game_Init():
     
     global gameState 
-
-    gameState = GAMESTATE_Game
+    global bullets
+    global player
+    global offsetCount
+    global xOffset
+    global yOffset
     
+    gameState = GAMESTATE_Game
+    xOffset = 0
+    yOffset = 0
+    offsetCount = 0
+
     for smallAsteroid in smallAsteroids:
         smallAsteroid.setX(random.randint(0, 128))
         smallAsteroid.setY(random.randint(0, 32))
@@ -917,14 +860,12 @@ def game_Init():
     for largeAsteroid in largeAsteroids:
         launchLargeAsteroid(largeAsteroid)
 
+    for enemy in enemies:
+        launchEnemy(enemy)
+
 
     bullets.reset()
     player.reset()
-
-    shield_Sprite.x = 44
-    shield_Sprite.y = 34
-    shield_Mask.x = 44
-    shield_Mask.y = 34
     
     thumby.display.setFPS(50)
     thumby.display.setFont("/lib/font5x7.bin", 5, 7, 1)
@@ -933,6 +874,7 @@ def game_Init():
 def game():
 
     global gameState
+    global bullets
     global player
     global offsetCount
     global xOffset
@@ -984,7 +926,7 @@ def game():
                     else:
                         player.direction = DIRECTION_Down
 
-            bullet.x = 20
+            bullet.x = CONSTANTS_Player_X + 13
             bullet.y = player.y + 2
             bullet.muzzleIndex = 8
 
@@ -1039,13 +981,13 @@ def game():
         if collide(playerRect, asteroidRect_00) or collide(playerRect, asteroidRect_01) or collide(playerRect, asteroidRect_02):
 
             if player.health > 0:
+                
                 player.health = player.health - 1
                 thumby.audio.play(6000, 10)
-                           
-
-            if player.health == 0:
-                player.explodeCounter = 21
-                thumby.audio.play(4000, 10)       
+                
+                if player.health == 0:
+                    player.explodeCounter = 21
+                    thumby.audio.play(4000, 10)       
 
             collision = True
             break
@@ -1061,7 +1003,7 @@ def game():
         xOffset = CONSTANTS_xOffsets[offsetCount - 1]
         yOffset = CONSTANTS_yOffsets[offsetCount - 1]
         
-        #arduboy.invert(offsetCount % 2)
+        #invert(offsetCount % 2)
 
     else:
 
@@ -1070,21 +1012,23 @@ def game():
 
         for enemy in enemies:
 
-            enemyRect = enemy.getRect(-1)
-            
-            if collide(playerRect, enemyRect):
+            if enemy.getActive():
 
-                if player.health > 0:
-                    player.health = player.health - 1
-                    thumby.audio.play(6000, 10)
-
-                if player.health == 0:
-                    player.explodeCounter = 21
-                    thumby.audio.play(4000, 10)
-
-                collision = True
-                break
-
+                enemyRect = enemy.getRect(-1)
+                
+                if collide(playerRect, enemyRect):
+    
+                    if player.health > 0:
+                        
+                        player.health = player.health - 1
+                        thumby.audio.play(6000, 10)
+        
+                        if player.health == 0:
+                            player.explodeCounter = 21
+                            thumby.audio.play(4000, 10)
+    
+                    collision = True
+                    break
 
         if collision:
             
@@ -1092,11 +1036,11 @@ def game():
     
             if offsetCount > 4:
                 offsetCount = 1
-    
+
             xOffset = CONSTANTS_xOffsets[offsetCount - 1]
             yOffset = CONSTANTS_yOffsets[offsetCount - 1]
             
-#             arduboy.invert(offsetCount % 2)
+#           invert(offsetCount % 2)
 
             pass
 
@@ -1105,7 +1049,7 @@ def game():
             offsetCount = 0
             xOffset = 0
             yOffset = 0
-#             arduboy.invert(false)
+#           invert(false)
             pass
 
 
@@ -1195,7 +1139,7 @@ def game():
             enemy.render(xOffset, yOffset)
 
         if enemy.explodeCounter > 0:
-            renderPuff(enemy.x + xOffset - 3, enemy.y + yOffset, int((21 - enemy.explodeCounter) / 3))
+            thumby.display.blitWithMask(puff[int((21 - enemy.explodeCounter) / 3)], enemy.x + xOffset - 3, enemy.y + yOffset, 15, 15, 0, False, False, puff_Mask[int((21 - enemy.explodeCounter) / 3)])
 
         if enemy.updateExplosion():
             launchEnemy(enemy)
@@ -1207,8 +1151,7 @@ def game():
         player.render(frameCount, xOffset, yOffset)
 
     if player.explodeCounter > 0:
-        renderPuff(6, player.y + yOffset, int((21 - player.explodeCounter) / 3))
-        pass
+        thumby.display.blitWithMask(puff[int((21 - player.explodeCounter) / 3)], 6, player.y + yOffset, 15, 15, 0, False, False, puff_Mask[int((21 - player.explodeCounter) / 3)])
 
     if player.updateExplosion():
         gameState = GAMESTATE_Score_Init
@@ -1230,7 +1173,7 @@ def game():
                     bullet.render(xOffset, yOffset)
 
                 else:
-                    renderHit(bullet.x + xOffset, bullet.y - 5 + yOffset, bullet.hitCount - 1)
+                    thumby.display.blit(hit[bullet.hitCount - 1], bullet.x + xOffset, bullet.y - 5 + yOffset, 6, 12, 0, False, False)
 
 
     # Render the HUD ..
@@ -1240,24 +1183,24 @@ def game():
 
     score = player.score
     digit = int(score / 10000)
-    renderDigit(52, 0, digit)
+    thumby.display.blit(number_Sprite[digit], 52, 0, 3, 5, 0, False, False)
 
     score = score - (digit * 10000)
     digit = int(score / 1000)
-    renderDigit(56, 0, digit)
+    thumby.display.blit(number_Sprite[digit], 56, 0, 3, 5, 0, False, False)
 
     score = score - (digit * 1000)
     digit = int(score / 100)
-    renderDigit(60, 0, digit)
+    thumby.display.blit(number_Sprite[digit], 60, 0, 3, 5, 0, False, False)
 
     score = score - (digit * 100)
     digit = int(score / 10)
-    renderDigit(64, 0, digit)
+    thumby.display.blit(number_Sprite[digit], 64, 0, 3, 5, 0, False, False)
 
     score = score - (digit * 10)
-    renderDigit(68, 0, score)
+    thumby.display.blit(number_Sprite[score], 68, 0, 3, 5, 0, False, False)
 
-    thumby.display.drawSpriteWithMask(shield_Sprite, shield_Mask)
+    thumby.display.blitWithMask(shield, 44, 34, 28, 7, 0, False, False, shield_Mask)
     thumby.display.drawLine(54, 37, 54 + health_Bar, 37, 1)
 
 
@@ -1286,9 +1229,8 @@ def highScore():
     
     while len(score) < 5:
         score = "0" +score
-        
-    thumby.display.drawSprite(highScore_Sprite)
 
+    thumby.display.blit(highScore_Img, 0, 0, 72, 40, 0, False, False)
     thumby.display.drawText("Score", 21, 10, 1)
     thumby.display.drawText(score, 21, 21, 1)
 
