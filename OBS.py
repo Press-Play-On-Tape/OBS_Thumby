@@ -805,11 +805,10 @@ def titleScreen():
     
     global gameState 
     
-    moveRenderStarfield()
-    moveRenderSmallAsteroids(True, 0, 0)
-    moveRenderLargeAsteroids(True, 0, 0)
-
     if titleScreenVars.counter == 0:
+        moveRenderStarfield()
+        moveRenderSmallAsteroids(True, 0, 0)
+        moveRenderLargeAsteroids(True, 0, 0)
         thumby.display.blitWithMask(title, 5, 1, 61, 37, 0, False, False, title_Mask)
 
     if titleScreenVars.counter == 1:
